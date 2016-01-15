@@ -1,0 +1,105 @@
+先要求 各个错误版本的 极小故障模式的 强度
+
+在计算可能性
+
+strength 强度的函数已经有可以参考的。
+只要再计算求出outsideprobability就行了
+
+这个强度是所有MFS的总的强度
+如果   强度   小于t，就不用计算
+
+son2
+t=2
+0.9929673156784588
+t=3
+100%
+t=4
+100%
+
+
+
+son3
+t=2
+0.9996103112218501
+t=3
+100%
+t=4
+100%
+
+
+son4
+t=2
+0.9999999999995054
+t=3
+1.0
+t=5
+1.0
+
+son5
+t=2
+1.0
+t=3
+1.0
+t=5
+1.0
+
+
+son6
+t=2
+1.0
+t=3
+1.0
+t=5
+1.0
+
+son7
+t=2
+0.9999999999988177
+t=3
+1.0
+t=5
+1.0
+
+
+
+
+t=2
+
+0.9929673156784588
+0.9996103112218501
+0.9999999999995054
+1.0
+1.0
+0.9999999999988177
+
+
+
+t=3
+1.0
+1.0
+java.io.FileNotFoundException: C:\Users\Administrator\Desktop\MFS_统计结果\schedule1\son1 (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at getProbability.output(getProbability.java:73)
+	at getProbability.main(getProbability.java:64)
+1.0
+0.0
+1.0
+1.0
+
+t=4
+java.io.FileNotFoundException: C:\Users\Administrator\Desktop\MFS_统计结果\schedule1\son1 (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at getProbability.output(getProbability.java:73)
+	at getProbability.main(getProbability.java:64)
+0.8271604938271604
+1.0
+1.0
+0.0
+0.0
+1.0
